@@ -1,6 +1,7 @@
-public class KalyanReddy { public static void main(String[] args) {
+public class KalyanReddy { 
+    public static void main(String[] args) {
 
-    for(int i = 1; i<=6; i++)
+    /*for(int i = 1; i<=6; i++)
     {
         for(int k = 1; k<=i-1; k++)
         {
@@ -23,6 +24,7 @@ public class KalyanReddy { public static void main(String[] args) {
             System.out.print(" * ");
         } 
         System.out.println(); 
-    }
+    }*/
+        System.out.println("Hello All");
 }    
 }
