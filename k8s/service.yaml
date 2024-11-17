@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-app-service
+spec:
+  type: LoadBalancer  # Change to NodePort or ClusterIP based on your needs
+  ports:
+  - port: 80
+    targetPort: 8080
+  selector:
+    app: my-app
