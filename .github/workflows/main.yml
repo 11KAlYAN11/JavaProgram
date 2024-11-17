@@ -17,7 +17,11 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '17'
-
+          distribution: temurin # Specify the JDK distribution
+          server-id: github
+          server-username: GITHUB_ACTOR
+          server-password: GITHUB_TOKEN
+          
       - name: Build the application
         run: mvn clean package --file pom.xml
 
